@@ -26,5 +26,4 @@ const cardRef = ({ url, alt }) => {
   }
 
 const itemsRef = images.map(cardRef).join('');
-console.log(itemsRef);
 listRef.insertAdjacentHTML('afterbegin', itemsRef)
