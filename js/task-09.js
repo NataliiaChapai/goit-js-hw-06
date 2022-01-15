@@ -10,5 +10,5 @@ function getRandomHexColor() {
 
 function onButtonClick() {
   bodyRef.setAttribute('style', `background-color: ${getRandomHexColor()};`);
-  colorRef.textContent = getRandomHexColor();
+  colorRef.textContent = bodyRef.style.backgroundColor;
 }
