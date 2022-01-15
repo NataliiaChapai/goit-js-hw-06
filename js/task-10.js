@@ -27,4 +27,5 @@ return boxesRef.append(...boxes);
 
 function destroyBoxes() {
   boxesRef.innerHTML = '';
+  inputRef.value = '';
   }
